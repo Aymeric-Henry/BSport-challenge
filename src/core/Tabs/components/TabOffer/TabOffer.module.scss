@@ -1,0 +1,28 @@
+.tabOffer {
+  .background {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .content {
+    padding: 20px;
+
+    .title {
+      margin-top: -32px;
+      margin-bottom: 10px;
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    .coach {
+      display: flex;
+      align-items: center;
+    }
+
+    .level, .location, .booking {
+      margin-top: 20px;
+    }
+  }
+}

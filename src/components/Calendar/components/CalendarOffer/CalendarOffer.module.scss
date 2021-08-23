@@ -1,0 +1,16 @@
+.offer {
+  display: flex;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0px 4px;
+
+  .prefix {
+    margin-right: 4px;
+  }
+
+  .name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}

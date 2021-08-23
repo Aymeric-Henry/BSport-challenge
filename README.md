@@ -1,11 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+### BEFORE START
+In the src/api/config file you need to add the bearer token to access to the api
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -29,18 +23,24 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Question
+For the location of the activities the address is send as GPS coordinate, I didn't find in the api where i can find directly the address. A get around will be to use a map library to display the location
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+For the bookings for the few activity who have bookings can't be retrieve without credentials
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Potential Improvment
+## UI
+Add the BSport colors
+Add a better ux for the events adding the availabilty of the class
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Dev
+Add a mock of the api to test the render of the component
+Think of the implementation of end to end testing
+Add a internationalization system
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Functionnality
+Add the reservation system -> need Login
+Add Filters on the top of the calendar
+Add a carrousel of image to the tabs
+Add similar event to the tabs
+Add all the courses from the same activity to the tabs
