@@ -23,24 +23,34 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Question
+## Question
 For the location of the activities the address is send as GPS coordinate, I didn't find in the api where i can find directly the address. A get around will be to use a map library to display the location
 
 For the bookings for the few activity who have bookings can't be retrieve without credentials
 
-### Potential Improvment
+# Potential Improvment
 ## UI
 Add the BSport colors
+
 Add a better ux for the events adding the availabilty of the class
 
 ## Dev
 Add a mock of the api to test the render of the component
+
 Think of the implementation of end to end testing
+
 Add a internationalization system
 
 ## Functionnality
 Add the reservation system -> need Login
+
 Add Filters on the top of the calendar
+
 Add a carrousel of image to the tabs
+
 Add similar event to the tabs
+
 Add all the courses from the same activity to the tabs
+
+
+### Duration on the project 8 hours
